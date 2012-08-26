@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403514F815EAB4B20039590D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403514F715EAB4B20039590D /* UIKit.framework */; };
+		403514FA15EAB4B20039590D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403514F915EAB4B20039590D /* Foundation.framework */; };
+		403514FC15EAB4B20039590D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403514FB15EAB4B20039590D /* CoreGraphics.framework */; };
+		4035150215EAB4B20039590D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4035150015EAB4B20039590D /* InfoPlist.strings */; };
+		4035150415EAB4B20039590D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4035150315EAB4B20039590D /* main.m */; };
+		4035150815EAB4B20039590D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4035150715EAB4B20039590D /* AppDelegate.m */; };
+		4035150B15EAB4B20039590D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4035150A15EAB4B20039590D /* ViewController.m */; };
+		4035150E15EAB4B20039590D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4035150C15EAB4B20039590D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		403514F315EAB4B20039590D /* testremotegit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testremotegit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403514F715EAB4B20039590D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		403514F915EAB4B20039590D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		403514FB15EAB4B20039590D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		403514FF15EAB4B20039590D /* testremotegit-Info.plist */ = {isa = PBXFileReference; path = "testremotegit-Info.plist"; sourceTree = "<group>"; };
+		4035150115EAB4B20039590D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4035150315EAB4B20039590D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4035150515EAB4B20039590D /* testremotegit-Prefix.pch */ = {isa = PBXFileReference; path = "testremotegit-Prefix.pch"; sourceTree = "<group>"; };
+		4035150615EAB4B20039590D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4035150715EAB4B20039590D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4035150915EAB4B20039590D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4035150A15EAB4B20039590D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4035150D15EAB4B20039590D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403514F015EAB4B20039590D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403514F815EAB4B20039590D /* UIKit.framework in Frameworks */,
+				403514FA15EAB4B20039590D /* Foundation.framework in Frameworks */,
+				403514FC15EAB4B20039590D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403514E815EAB4B20039590D = {
+			isa = PBXGroup;
+			children = (
+				403514FD15EAB4B20039590D /* testremotegit */,
+				403514F615EAB4B20039590D /* Frameworks */,
+				403514F415EAB4B20039590D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403514F415EAB4B20039590D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403514F315EAB4B20039590D /* testremotegit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403514F615EAB4B20039590D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				403514F715EAB4B20039590D /* UIKit.framework */,
+				403514F915EAB4B20039590D /* Foundation.framework */,
+				403514FB15EAB4B20039590D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		403514FD15EAB4B20039590D /* testremotegit */ = {
+			isa = PBXGroup;
+			children = (
+				4035150615EAB4B20039590D /* AppDelegate.h */,
+				4035150715EAB4B20039590D /* AppDelegate.m */,
+				4035150915EAB4B20039590D /* ViewController.h */,
+				4035150A15EAB4B20039590D /* ViewController.m */,
+				4035150C15EAB4B20039590D /* ViewController.xib */,
+				403514FE15EAB4B20039590D /* Supporting Files */,
+			);
+			path = testremotegit;
+			sourceTree = "<group>";
+		};
+		403514FE15EAB4B20039590D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403514FF15EAB4B20039590D /* testremotegit-Info.plist */,
+				4035150015EAB4B20039590D /* InfoPlist.strings */,
+				4035150315EAB4B20039590D /* main.m */,
+				4035150515EAB4B20039590D /* testremotegit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403514F215EAB4B20039590D /* testremotegit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4035151115EAB4B20039590D /* Build configuration list for PBXNativeTarget "testremotegit" */;
+			buildPhases = (
+				403514EF15EAB4B20039590D /* Sources */,
+				403514F015EAB4B20039590D /* Frameworks */,
+				403514F115EAB4B20039590D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testremotegit;
+			productName = testremotegit;
+			productReference = 403514F315EAB4B20039590D /* testremotegit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403514EA15EAB4B20039590D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Endicosoft.com;
+			};
+			buildConfigurationList = 403514ED15EAB4B20039590D /* Build configuration list for PBXProject "testremotegit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 403514E815EAB4B20039590D;
+			productRefGroup = 403514F415EAB4B20039590D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403514F215EAB4B20039590D /* testremotegit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403514F115EAB4B20039590D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4035150215EAB4B20039590D /* InfoPlist.strings in Resources */,
+				4035150E15EAB4B20039590D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403514EF15EAB4B20039590D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4035150415EAB4B20039590D /* main.m in Sources */,
+				4035150815EAB4B20039590D /* AppDelegate.m in Sources */,
+				4035150B15EAB4B20039590D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4035150015EAB4B20039590D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4035150115EAB4B20039590D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4035150C15EAB4B20039590D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4035150D15EAB4B20039590D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4035150F15EAB4B20039590D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4035151015EAB4B20039590D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4035151215EAB4B20039590D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testremotegit/testremotegit-Prefix.pch";
+				INFOPLIST_FILE = "testremotegit/testremotegit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4035151315EAB4B20039590D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testremotegit/testremotegit-Prefix.pch";
+				INFOPLIST_FILE = "testremotegit/testremotegit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403514ED15EAB4B20039590D /* Build configuration list for PBXProject "testremotegit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4035150F15EAB4B20039590D /* Debug */,
+				4035151015EAB4B20039590D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4035151115EAB4B20039590D /* Build configuration list for PBXNativeTarget "testremotegit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4035151215EAB4B20039590D /* Debug */,
+				4035151315EAB4B20039590D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403514EA15EAB4B20039590D /* Project object */;
+}
